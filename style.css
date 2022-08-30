@@ -1,0 +1,23 @@
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0em;
+}
+
+#menu{
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+}
+
+.hidden{
+    display: none;
+}

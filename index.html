@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Beyond:the Game!</title>
+
+	  <!-- include css files -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+	  
+	  <!-- include js files -->
+	<script src = './Global.js'></script>
+	<script src = './Music.js'></script>
+	<script src = './Settings.js'></script>
+	<script src = './Images.js'></script>
+	<script src = './Math.js'></script>
+	  <!-- this is the main js file -->
+	<script src="script.js" type = "module" defer></script>
+	  
+  </head>
+  <body>
+
+      <div id = 'menu' >
+          <input type='button' id = 'startButton' value = 'start'/>
+      </div>
+
+	  <!-- display FPS for debug purposes -->
+	  <p class = "hidden" id="debug" style="position:absolute;left:10px;top:10px;pointer-events:none;-moz-user-select: none;-khtml-user-select: none;-webkit-user-select: none;">
+		  FPS:
+	  </p>
+	  
+	  <!-- canvas for rendering the games graphics -->
+	  <canvas  class = "hidden" id = "canv" ></canvas>
+  </body>
+</html>
